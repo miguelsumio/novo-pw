@@ -2,7 +2,7 @@ const botao = document.getElementById("tema");
 
         //carregar preferencia
         if(localStorage.getItem("tema") === "dark") {
-        document.body.classList.add("dark");
+        document.body.classList.add("dark")
          }
 
          //alternar tema 

@@ -15,11 +15,11 @@
 --cor-texto: #f1f1f1;
 --cor-branco: #1e1e1e;
 --cor-borda: #444;
---cor-sombra: #000;  1
+--cor-sombra: #000;  
 }
 
 * {
-   transition: all 0.5 ease;
+   transition: all 0.5s ease;
 }
 
 body{
