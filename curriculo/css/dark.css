@@ -76,3 +76,17 @@ font-size: 20px;
 border: none;
 cursor: pointer;
 }
+
+.Voltar {
+   position: absolute;
+left: 15px;
+padding: 15px 15px;
+border: none;
+border-radius: 50px;
+cursor: pointer;
+background: var(--cor-footer);
+color: var(--cor-branco);
+font-size: 20px;
+border: none;
+cursor: pointer;
+}
