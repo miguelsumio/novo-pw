@@ -8,12 +8,13 @@
    --cor-borda: #cecece;
    --cor-sombra: #ccc;
    --cor-branca: #fff;
+   --bg-images: url('../images/Imagens/fundo branco.webp')
 
    --fonte-padrao: Arial, Tahoma, Verdana;
    --fonte-base: 18px;
-   --line-base: 24px;
-   --radius: 30px;
-   --espaco-padrao: 25px;
+   --line-base: 28px;
+   --radius: 5px;
+   --espaco-padrao: 10px;
 }
 
 *{
@@ -26,7 +27,13 @@
 
 html,body{
     height: 100%;
-    background: var(--cor-fundo);
+    background:
+     linear-gradient(
+       rgba(255, 255, 255, var(--overlay-opacity)),
+       rgba(255, 255, 255, var(--overlay-opacity))
+     ),
+     var(--bg-imagens) no-repeat center center fixed;
+    background-size:cover;
 }
 
 main{
