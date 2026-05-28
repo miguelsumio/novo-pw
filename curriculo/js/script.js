@@ -1,4 +1,4 @@
-/*-const botao = document.getElementById("Tema");
+constbotao= document.getElementById("Tema");
 
 if (localStorage.getItem("Tema") === "dark"){
     document.body.classList.add("dark");
@@ -11,9 +11,9 @@ botao.addEventListener("click", () => {
     } else {
         localStorage.setItem("Tema", "light");
     }
-});*/
+});
 
-const botao= document.getElementById("tema");
+const botao = document.getElementById("tema");
 
 const updateButtonIcon = () => {
     if (!botao) return;
